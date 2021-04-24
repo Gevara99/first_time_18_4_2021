@@ -1,0 +1,126 @@
+body{
+	  background-image: radial-gradient(circle, #052137, #003f4f, #1f5e5c, #507b63, #89966c);
+}
+.contain{
+	width: 100%;
+	min-height: 100vh;
+	padding-left: 8%;
+	padding-right: 8%;
+	box-sizing: border-box;
+	overflow: hidden;
+}
+.navbar{
+	width: 100%;
+	display: flex;
+	align-items: center;
+}
+.logo{
+	width: 50px;
+	cursor: pointer;
+	margin: 30px 0px;
+}
+.menu-icon{
+	width: 25px;
+	cursor: pointer;
+}
+nav{
+	flex: 1;
+	text-align: right;
+}
+nav ul li{
+	list-style: none;
+	display: inline-block;
+	margin-right: 30px;
+}
+nav ul li a{
+	text-decoration: none;
+	color: white;
+	font-size: 16px;
+}
+nav ul li a:hover{
+	color: white;
+	font-weight: bold;
+	font-size: 18px;
+	border-bottom: 3px solid #5ea87d;
+	border-radius: 1px;
+}
+form{
+	width: 400px;
+	height: 400px;
+	background-color:#3a515a;
+	border: none;
+	margin: -480px auto;
+	text-align: center;
+	border-radius: 70px;
+}
+form img{
+	margin: 20px 0px 10px 0px;
+}
+form input{
+	font-weight: bold;
+	border: none;
+	padding: 15px;
+	margin: 15px;
+	border-radius: 40px;
+	background-color:#d2ceba;
+	text-align: center;
+	width: 200px;
+	box-shadow: 0px 0px 10px 0px black;
+	cursor: pointer;
+	box-sizing: border-box;
+	outline: none;
+	transition: 0.5s;
+}
+form button{
+	font-weight: bold;
+	border: none;
+	border-radius: 20px;
+	padding: 8px;
+	margin-bottom: 10px;
+	background:#5ea87d;
+	width: 80px;
+	color: white;
+	box-shadow: 0px 0px 5px 0px black;
+	cursor: pointer;
+	transition: 0.5s;
+}
+form a{
+	text-decoration: none;
+	color: #374ff1;
+}
+form .Create{
+	color:white;
+	font-weight: bold;
+	font-size: 16px;
+	letter-spacing: 2px;
+}
+form input:hover{
+	background-color:#77beb0;
+	width: 230px;
+	margin: 20px;
+}
+form button:hover{
+	background: #727ad9;
+	color: black;
+	margin: 15;
+	width: 90px;
+}
+div .face{
+	width: 41px;
+	height: auto;
+	cursor: pointer;
+}
+div .insta{
+	width: 39px;
+	height: auto;
+	cursor: pointer;
+}
+div .twetter{
+	width: 39px;
+	height: auto;
+	cursor: pointer;
+}
+.social{
+	text-align: center;
+	margin-top: 500px;
+}
